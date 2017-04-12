@@ -1,0 +1,185 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: inherit;
+}
+
+a {
+	text-decoration: none;
+}
+
+.clearFix:after {
+	clear: both;
+	display: block;
+	visibility: hidden;
+	height: 0;
+	line-height: 0;
+	content: '';
+}
+
+.clearFix {
+	zoom: 1;
+}
+/*-----------------------------*/
+.box{
+	width: 1000px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.box .box-l {
+	float: left;
+	width: 170px;
+	line-height: 52px;
+}
+.box .box-l img{
+	float: left;
+}
+.box .box-l p{
+	float: left;
+	font-size: 20px;
+	margin-left: 5px;
+}
+.box-r{
+	float: right;
+}
+.box-r ul li{
+	float: left;
+	line-height: 52px;
+	margin-left: 10px;
+	color: #333333;
+	font-size: 12px;
+}
+.box-r ul li a{
+	padding: 10px 20px;
+	border: 1px solid #DFDFDF;
+	border-radius: 5px;
+	color: #333333;
+	font-weight: bold;
+}
+/*-----------------------------------------*/
+.img{
+	width: 100%;
+	height: 440px;
+	background: #f5fdfb;
+	border-bottom: 7px solid #dbdbdb;
+	border-top: 2px solid #DFDFDF;
+}
+.img .img-box{
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+.img .img-box img{
+	margin-top: 50px;
+}
+
+/*-------------------------------------------*/
+.img .img-box .from{
+	width: 279px;
+	height: 320px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background: #fff;
+	margin-top: 45px;
+	border: 1px solid #DFDFDF;
+	padding: 20px 15px;
+}
+.from h4{
+	color: #666666;
+}
+.from p{
+	/*margin-top: 20px;*/
+	float: right;
+}
+.from p a{
+	font-size: 12px;
+	color: #767676;
+}
+.from p a:hover{
+	color: #73ADC9;
+	text-decoration: underline;
+}
+.from input[type="text"],input[type="password"]{
+	width: 215px;
+	height: 40px;
+	font-size: 14px;
+	padding: 0 30px;
+	margin-top: 15px;
+}
+.from input[type="checkbox"]{
+	margin-top: 10px;
+	float: left;
+}
+.from span{
+	font-size: 12px;
+	color: #767676;
+	line-height: 33px;
+	margin-left: 5px;
+}
+.from form a{
+	color: #73ADC9;
+	font-size: 12px;
+	float: right;
+	line-height: 33px;
+}
+.from form a:hover{
+	text-decoration: underline;
+}
+.from input[type="submit"]{
+	width: 100%;
+	height: 40px;
+	border: none;
+	background: #FF318C;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	transition: 0.3s;
+	margin-top: 20px;
+}
+.from input[type="submit"]:hover{
+	opacity: 0.8;
+}
+.qq{
+	background: url(../img/qq.png) no-repeat;
+	height: 30px;
+	margin-top: 25px;
+}
+/*-----------------------------------------------*/
+.foot{
+	width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+}
+.foot ul{
+	margin-left: 80px;
+	margin-top: 30px;
+}
+.foot ul li{
+	float: left;
+	color: #666666;
+	font-size: 12px;
+	margin: 0 10px;
+}
+.foot ul li a{
+	color: #666666;
+	font-size: 12px;
+}
+.foot ul li span{
+	color: #FF318C;
+}
+.foot ul li a:hover{
+	text-decoration: underline;
+}
+.foot p{
+	color: #999;
+	font-size: 12px;
+	margin-top: 30px;
+}
+.from h5{
+	height: 20px;
+	line-height: 20px;
+	color: #FF318C;
+}
